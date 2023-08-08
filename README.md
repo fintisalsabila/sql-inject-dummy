@@ -10,12 +10,12 @@ Welcome to the SQL Injection Dummy Target repository! This project was created a
 ![Preview](preview.png)
 
 ## Installation
-1. Clone this repository to your local machine using `git clone https://github.com/fintisalsabila/sql-injection-dummy-target.git`.
+1. Clone this repository to your local machine using `git clone https://github.com/fintisalsabila/sql-injection-dummy.git`.
 2. Set up a local server environment (e.g., XAMPP, WAMP, or similar) to run PHP scripts.
 
 ## Usage
 1. Configure your local server to host the project.
-2. Access the project via your browser by navigating to `http://localhost/sql-injection-dummy-target`.
+2. Access the project via your browser by navigating to `http://localhost/sql-injection-dummy`.
 
 Code for attacking this web :
 - SELECT * FROM users WHERE username = '' AND password = '' OR 1=1 -- 
